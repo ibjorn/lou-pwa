@@ -1,0 +1,49 @@
+{
+  "name": "koop-blog",
+  "private": true,
+  "description": "A simple blog platform using GatsbyJS and MDX",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.16",
+    "@mdx-js/react": "^1.6.16",
+    "babel-plugin-styled-components": "^1.11.1",
+    "framer-motion": "^1.11.1",
+    "gatsby": "^2.24.47",
+    "gatsby-image": "^2.4.16",
+    "gatsby-plugin-mdx": "^1.2.34",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-sharp": "^2.6.27",
+    "gatsby-plugin-sitemap": "^2.4.11",
+    "gatsby-plugin-styled-components": "^3.3.10",
+    "gatsby-remark-images": "^3.3.25",
+    "gatsby-source-filesystem": "^2.3.24",
+    "gatsby-transformer-sharp": "^2.5.13",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "react-intersection-observer": "^8.26.2",
+    "styled-components": "^5.1.1",
+    "typeface-heebo": "0.0.72",
+    "typeface-ibm-plex-mono": "0.0.61"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bagseye/koop-blog"
+  },
+  "bugs": {
+    "url": "https://github.com/bagseye/koop-blog/issues"
+  }
+}
